@@ -1,0 +1,8 @@
+import * as React from 'react';
+import {storiesOf} from '@kadira/storybook';
+import Header from './Header';
+
+storiesOf('Header', module)
+  .add('sosId', () => (
+    <Header title="AppZ" />
+  ));
